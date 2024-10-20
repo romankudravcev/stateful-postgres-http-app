@@ -4,11 +4,11 @@ import javax.persistence.*;
 import java.time.Instant;
 
 @Entity
-@Table(name = "example_responses") // Specify the table name
+@Table(name = "example_responses")
 public class ExampleResponse {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY) // Auto-increment strategy
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
     private String requestedIP;
