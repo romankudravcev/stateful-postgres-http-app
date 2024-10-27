@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: http-stateful-config
+data:
+  server.port: "8081"
+  spring.datasource.url: "url"
+  spring.datasource.username: "username"
+  spring.datasource.password: "password"
