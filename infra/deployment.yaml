@@ -20,6 +20,9 @@ spec:
         - name: http-app
           image: ghcr.io/romankudravcev/stateful-postgres-http-app:latest
           imagePullPolicy: Always
+          envFrom:
+            - configMapRef:
+                name: http-stateful-config
       restartPolicy: Always
 ---
 apiVersion: v1
