@@ -70,5 +70,6 @@ Temporary Items
 *.icloud
 
 # ConfigMaps and Secrets
+config-map.yaml
 **/config-map.yaml
 **/secret.yaml
